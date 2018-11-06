@@ -1,0 +1,65 @@
+.masthead {
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  height: 83px;
+  width: 200px;
+  text-align: center;
+  background-color: red;
+  width: 20%;
+}
+
+.nav {
+  width: 40%;
+  float: left;
+}
+
+.search {
+  width: 20%;
+  float: left;
+}
+
+.locator {
+    width: 20%;
+    float: left;
+}
+
+.logo p {
+  margin-top: 15px;
+}
+.nav {
+  padding-top: 10px;
+}
+
+ul {
+margin-left: 100px;
+float: left;
+}
+
+
+.search {
+    float: left;
+}
+
+li {
+  margin-left: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.locator {
+  height: 100px;
+  float: right;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
